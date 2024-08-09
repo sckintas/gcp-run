@@ -6,6 +6,6 @@ router = APIRouter()
 class ResponseBody(BaseModel):
     message: str
 
-@router.get("/hello-Seckin Kintas! How are you?")
+@router.get("/hello-Seckin Kintas! How are you? ")
 def prompt() -> ResponseBody:
     return {"message": "Hello, world!"}
